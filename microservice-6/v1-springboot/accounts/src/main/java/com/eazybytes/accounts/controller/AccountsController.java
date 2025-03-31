@@ -202,8 +202,8 @@ public class AccountsController {
     }
 
     @Operation(
-            summary = "Get Build Information",
-            description = "Get Build Information that is deployed into accounts microservices"
+            summary = "Get Java Version",
+            description = "Get Java Version that is installed into the accounts microservice"
     )
     @ApiResponses({
             @ApiResponse(
@@ -223,7 +223,7 @@ public class AccountsController {
     public ResponseEntity<String> getJavaVersion(){
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(environment.getProperty("JAVA_HOME"));
+                .body(environment.getProperty("Path"));
     }
 
 
