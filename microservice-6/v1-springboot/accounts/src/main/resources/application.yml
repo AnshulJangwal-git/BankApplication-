@@ -16,4 +16,4 @@ spring:
     show-sql: true
 
 build:
-  version: "1.0""
+  version: "1.0"
