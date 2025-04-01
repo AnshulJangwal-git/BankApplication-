@@ -14,7 +14,6 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Pattern;
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
@@ -34,13 +33,12 @@ import org.springframework.web.bind.annotation.*;
 )
 @RestController
 @RequestMapping(path="/api", produces = {MediaType.APPLICATION_JSON_VALUE})
-//@AllArgsConstructor
 @Validated
 public class AccountsController {
 
     private final IAccountsService iAccountsService;
 
-    public AccountsController(IAccountsService iAccountsService){
+    public AccountsController(IAccountsService iAccountsService) {
         this.iAccountsService = iAccountsService;
     }
 
@@ -52,7 +50,6 @@ public class AccountsController {
 
     @Autowired
     private AccountsContactInfoDto accountsContactInfoDto;
-
 
     @Operation(
             summary = "Create Account REST API",
@@ -100,8 +97,8 @@ public class AccountsController {
     )
     @GetMapping("/fetch")
     public ResponseEntity<CustomerDto> fetchAccountDetails(@RequestParam
-                                                               @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
-                                                               String mobileNumber) {
+                                                           @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
+                                                           String mobileNumber) {
         CustomerDto customerDto = iAccountsService.fetchAccount(mobileNumber);
         return ResponseEntity.status(HttpStatus.OK).body(customerDto);
     }
@@ -166,8 +163,8 @@ public class AccountsController {
     )
     @DeleteMapping("/delete")
     public ResponseEntity<ResponseDto> deleteAccountDetails(@RequestParam
-                                                                @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
-                                                                String mobileNumber) {
+                                                            @Pattern(regexp="(^$|[0-9]{10})",message = "Mobile number must be 10 digits")
+                                                            String mobileNumber) {
         boolean isDeleted = iAccountsService.deleteAccount(mobileNumber);
         if(isDeleted) {
             return ResponseEntity
@@ -181,8 +178,8 @@ public class AccountsController {
     }
 
     @Operation(
-            summary = "Get Build Information",
-            description = "Get Build Information that is deployed into accounts microservices"
+            summary = "Get Build information",
+            description = "Get Build information that is deployed into accounts microservice"
     )
     @ApiResponses({
             @ApiResponse(
@@ -199,15 +196,15 @@ public class AccountsController {
     }
     )
     @GetMapping("/build-info")
-    public ResponseEntity<String> getBuildVersionInfo(){
+    public ResponseEntity<String> getBuildInfo() {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(buildVersion);
     }
 
     @Operation(
-            summary = "Get Java Version",
-            description = "Get Java Version that is installed into the accounts microservice"
+            summary = "Get Java version",
+            description = "Get Java versions details that is installed into accounts microservice"
     )
     @ApiResponses({
             @ApiResponse(
@@ -224,15 +221,15 @@ public class AccountsController {
     }
     )
     @GetMapping("/java-version")
-    public ResponseEntity<String> getJavaVersion(){
+    public ResponseEntity<String> getJavaVersion() {
         return ResponseEntity
                 .status(HttpStatus.OK)
-                .body(environment.getProperty("Path"));
+                .body(environment.getProperty("JAVA_HOME"));
     }
 
     @Operation(
             summary = "Get Contact Info",
-            description = "Get Contact Info Details that can be reached put in case of any issues"
+            description = "Contact Info details that can be reached out in case of any issues"
     )
     @ApiResponses({
             @ApiResponse(
@@ -249,7 +246,7 @@ public class AccountsController {
     }
     )
     @GetMapping("/contact-info")
-    public ResponseEntity<AccountsContactInfoDto> getContactInfo(){
+    public ResponseEntity<AccountsContactInfoDto> getContactInfo() {
         return ResponseEntity
                 .status(HttpStatus.OK)
                 .body(accountsContactInfoDto);
