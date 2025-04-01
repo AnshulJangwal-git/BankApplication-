@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related to QA APIs"
+  contactDetails:
+    name: "Anshul Jangwal - QA Tester"
+    email: "anshuljangwal@gmail.com"
+  onCallSupport:
+    - (666) 666-9876
+    - (666) 623-5431
