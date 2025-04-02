@@ -3,13 +3,21 @@ spring:
   application:
     name: "configserver"
   profiles:
-    active: native
+#    active: native
+     active: git
   cloud:
     config:
       server:
-        native:
+        git:
+          uri: https://github.com/AnshulJangwal-git/BankApp-Config.git
+          default-label: master
+          timeout: 5
+          clone-on-start: true
+          force-pull: true
+
+#        native:
 #          search-locations: "classpath:/config"
-           search-locations: "file:///E://Dev2//eazybytes//config"
+#           search-locations: "file:///E://Dev2//eazybytes//config"
 
 
 
