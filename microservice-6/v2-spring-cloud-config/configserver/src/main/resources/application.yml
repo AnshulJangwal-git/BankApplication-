@@ -15,6 +15,9 @@ spring:
           clone-on-start: true
           force-pull: true
 
+encrypt:
+  key: "6587ADFE8B7B4C7B9E7B6B5E4D3C2B1A"
+
 #        native:
 #          search-locations: "classpath:/config"
 #           search-locations: "file:///E://Dev2//eazybytes//config"
