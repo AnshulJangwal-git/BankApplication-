@@ -17,6 +17,10 @@
         <option value="$PROJECT_DIR$/microservice-6/v2-spring-cloud-config/accounts/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-6/v2-spring-cloud-config/cards/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-6/v2-spring-cloud-config/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/MIcroservice-7/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/MIcroservice-7/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/MIcroservice-7/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/MIcroservice-7/loans/pom.xml" />
       </list>
     </option>
   </component>
