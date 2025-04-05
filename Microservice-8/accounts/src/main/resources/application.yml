@@ -36,3 +36,9 @@ eureka:
     registerWithEureka: true
     serviceUrl:
       defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "accounts"
+    description: "EazyBank Accounts Application Microservice"
+    version: "1.0.0"
