@@ -21,6 +21,10 @@
         <option value="$PROJECT_DIR$/MIcroservice-7/cards/pom.xml" />
         <option value="$PROJECT_DIR$/MIcroservice-7/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/MIcroservice-7/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-8/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-8/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-8/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-8/loans/pom.xml" />
       </list>
     </option>
   </component>

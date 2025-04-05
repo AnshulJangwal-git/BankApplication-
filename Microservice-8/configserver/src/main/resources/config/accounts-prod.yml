@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank accounts related to prod APIs"
+  contactDetails:
+    name: "Anshul Jangwal - Product Owner"
+    email: "anshuljangwal@gmail.com"
+  onCallSupport:
+    - (777) 777-5678
+    - (777) 723-0066

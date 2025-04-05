@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configserver (1)" />
         <module name="configserver" />
+        <module name="configserver (2)" />
       </profile>
       <profile name="Annotation profile for loans" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -17,11 +18,14 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
+        <module name="accounts (5)" />
         <module name="cards" />
         <module name="accounts (4)" />
         <module name="accounts (2)" />
         <module name="accounts (1)" />
         <module name="loans" />
+        <module name="cards (5)" />
+        <module name="loans (5)" />
         <module name="cards (1)" />
         <module name="loans (2)" />
         <module name="loans (1)" />
@@ -60,18 +64,22 @@
       <module name="accounts (2)" options="-parameters" />
       <module name="accounts (3)" options="-parameters" />
       <module name="accounts (4)" options="-parameters" />
+      <module name="accounts (5)" options="-parameters" />
       <module name="cards" options="-parameters" />
       <module name="cards (1)" options="-parameters" />
       <module name="cards (2)" options="-parameters" />
       <module name="cards (3)" options="-parameters" />
       <module name="cards (4)" options="-parameters" />
+      <module name="cards (5)" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="configserver (1)" options="-parameters" />
+      <module name="configserver (2)" options="-parameters" />
       <module name="loans" options="-parameters" />
       <module name="loans (1)" options="-parameters" />
       <module name="loans (2)" options="-parameters" />
       <module name="loans (3)" options="-parameters" />
       <module name="loans (4)" options="-parameters" />
+      <module name="loans (5)" options="-parameters" />
     </option>
   </component>
 </project>
