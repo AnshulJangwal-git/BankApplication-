@@ -21,7 +21,6 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8071/"
 
-
 management:
   endpoints:
     web:
@@ -29,11 +28,10 @@ management:
         include: "*"
   endpoint:
     shutdown:
-      access: "unrestricted"
+      access: unrestricted
   info:
     env:
       enabled: true
-
 
 eureka:
   instance:
@@ -47,5 +45,5 @@ eureka:
 info:
   app:
     name: "accounts"
-    description: "EazyBank Accounts Application Microservice"
+    description: "Eazy Bank Accounts Application Microservice"
     version: "1.0.0"
