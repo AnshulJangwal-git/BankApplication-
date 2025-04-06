@@ -1,1 +1,1 @@
-{"image":"anshuljangwal/loans:s6","imageId":"sha256:68555da9bbaa0d092691cfcc7c956827d126fc0369d898551afc4e4afc6e6ac6","imageDigest":"sha256:2cc37f01e0a6aba275dc8b25b9b7fa2c0a4fe4d083249271af963295d4065ddc","tags":["s6"],"imagePushed":false}
+{"image":"anshuljangwal/loans:s8","imageId":"sha256:189f2a0ab4aa780e54587736cb7ce46fbdaee217449e963b917e98a820cf1fc8","imageDigest":"sha256:0d8e0badb2be7f45f0d609b041b7ea6a5e0a85f9492d5aa7719c907d36de31db","tags":["s8"],"imagePushed":false}
