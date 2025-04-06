@@ -31,11 +31,12 @@ services:
     depends_on:
       configserver:
         condition: service_healthy
-
+    environment:
+      SPRING_APPLICATION_NAME: "eurekaserver"
 
 
   accounts:
-    image: "anshuljangwal/accounts:s6"
+    image: "anshuljangwal/accounts:s8"
     container_name: accounts-ms
     ports:
       - "8080:8080"
@@ -49,7 +50,7 @@ services:
       service: microservice-configserver-config
 
   loans:
-    image: "anshuljangwal/loans:s6"
+    image: "anshuljangwal/loans:s8"
     container_name: loans-ms
     ports:
       - "8090:8090"
@@ -63,7 +64,7 @@ services:
       service: microservice-configserver-config
 
   cards:
-    image: "anshuljangwal/cards:s6"
+    image: "anshuljangwal/cards:s8"
     container_name: cards-ms
     ports:
       - "9000:9000"
