@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: "APIGateway"
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    gateway:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    name: "APIGateway"
+    description: "Eazy Bank API Gateway server Application service"
+    version: "1.0.0"
