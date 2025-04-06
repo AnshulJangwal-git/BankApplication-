@@ -3,6 +3,11 @@ spring:
     name: "APIGateway"
   config:
     import: "optional:configserver:http://localhost:8071/"
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
 
 management:
   endpoints:
