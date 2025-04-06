@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+loans:
+  message: "Welcome to EazyBank loans related to QA APIs"
+  contactDetails:
+    name: "MS Dhoni - QA Tester"
+    email: "mahi@gmail.com"
+  onCallSupport:
+    - (888) 888-9876
+    - (888) 823-5431

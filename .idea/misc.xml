@@ -26,6 +26,12 @@
         <option value="$PROJECT_DIR$/Microservice-8/configserver/pom.xml" />
         <option value="$PROJECT_DIR$/Microservice-8/loans/pom.xml" />
         <option value="$PROJECT_DIR$/Microservice-8/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/APIGateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-9/loans/pom.xml" />
       </list>
     </option>
   </component>

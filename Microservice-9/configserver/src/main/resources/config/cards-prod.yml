@@ -1,0 +1,11 @@
+build:
+  version: "11.0"
+
+cards:
+  message: "Welcome to EazyBank cards related to prod APIs"
+  contactDetails:
+    name: "Akshay Jangwal - Product Owner"
+    email: "akshayjangwal@gmail.com"
+  onCallSupport:
+    - (777) 777-5678
+    - (777) 723-0066
