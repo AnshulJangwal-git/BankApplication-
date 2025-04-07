@@ -1,6 +1,6 @@
 spring:
   application:
-    name: "APIGateway"
+    name: "gatewayserver"
   config:
     import: "optional:configserver:http://localhost:8071/"
   cloud:
@@ -8,6 +8,7 @@ spring:
       discovery:
         locator:
           enabled: true
+          lowerCaseServiceId: true
 
 management:
   endpoints:
@@ -23,6 +24,6 @@ management:
 
 info:
   app:
-    name: "APIGateway"
-    description: "Eazy Bank API Gateway server Application service"
+    name: "gatewayserver"
+    description: "Eazy Bank Gateway Server Application"
     version: "1.0.0"

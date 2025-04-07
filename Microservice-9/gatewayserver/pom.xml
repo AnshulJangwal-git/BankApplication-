@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.eazybytes</groupId>
-	<artifactId>APIGateway</artifactId>
+	<artifactId>gatewayserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>APIGateway</name>
 	<description>API Gateway server for Eazy Bank Microservices</description>
