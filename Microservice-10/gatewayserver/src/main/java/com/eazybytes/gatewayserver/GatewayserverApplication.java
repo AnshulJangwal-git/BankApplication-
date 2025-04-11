@@ -60,6 +60,17 @@ public class GatewayserverApplication {
 				.circuitBreakerConfig(CircuitBreakerConfig.ofDefaults())
 				.timeLimiterConfig(TimeLimiterConfig.custom().timeoutDuration(Duration.ofSeconds(4)).build()).build());
 	}
+	@Bean
+	public RedisRateLimiter redisRateLimiter() {
+		return new RedisRateLimiter(1, 1, 1);
+	}
+
+	@Bean
+	KeyResolver userKeyResolver() {
+		return exchange -> Mono.justOrEmpty(exchange
+						.getRequest().getHeaders().getFirst("user"))
+						.defaultIfEmpty("anonymous");
+	}
 
 
 }
