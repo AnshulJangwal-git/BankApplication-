@@ -11,6 +11,12 @@
     <file url="file://$PROJECT_DIR$/Microservice-10/eurekaserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Microservice-10/gatewayserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Microservice-10/loans/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/accounts/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/cards/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/configserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/eurekaserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/gatewayserver/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Microservice-12/loans/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Microservice-8/accounts/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Microservice-8/cards/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Microservice-8/configserver/src/main/java" charset="UTF-8" />
