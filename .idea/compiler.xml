@@ -18,29 +18,6 @@
         <module name="configserver (4)" />
         <module name="eurekaserver (1)" />
       </profile>
-      <profile name="Annotation profile for cards" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="loans (6)" />
-        <module name="accounts (3)" />
-        <module name="cards (3)" />
-        <module name="accounts (1)" />
-      </profile>
-      <profile name="Annotation profile for loans (3)" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="loans (3)" />
-      </profile>
       <profile name="Annotation profile for accounts" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -48,7 +25,6 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="accounts (7)" />
         <module name="accounts (6)" />
         <module name="accounts (5)" />
         <module name="cards" />
@@ -58,8 +34,6 @@
         <module name="cards (5)" />
         <module name="cards (6)" />
         <module name="loans (5)" />
-        <module name="cards (7)" />
-        <module name="loans (7)" />
         <module name="cards (1)" />
         <module name="loans (2)" />
         <module name="loans (1)" />
@@ -67,6 +41,23 @@
         <module name="loans (4)" />
         <module name="cards (4)" />
         <module name="accounts" />
+      </profile>
+      <profile name="Annotation profile for loans" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="accounts (7)" />
+        <module name="accounts (3)" />
+        <module name="cards (3)" />
+        <module name="accounts (1)" />
+        <module name="loans (3)" />
+        <module name="loans (6)" />
+        <module name="cards (7)" />
+        <module name="loans (7)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
