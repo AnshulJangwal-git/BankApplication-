@@ -26,4 +26,6 @@ public class KeycloakRoleConverter  implements Converter<Jwt, Collection<Granted
         return returnValue;
     }
 
+
+
 }
