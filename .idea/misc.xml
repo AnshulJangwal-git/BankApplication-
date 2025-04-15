@@ -45,6 +45,13 @@
         <option value="$PROJECT_DIR$/Microservice-12/eurekaserver/pom.xml" />
         <option value="$PROJECT_DIR$/Microservice-12/gatewayserver/pom.xml" />
         <option value="$PROJECT_DIR$/Microservice-12/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/accounts/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/cards/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/configserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/eurekaserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/gatewayserver/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/loans/pom.xml" />
+        <option value="$PROJECT_DIR$/Microservice-13/message/pom.xml" />
       </list>
     </option>
   </component>

@@ -7,19 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gatewayserver (3)" />
         <module name="gatewayserver (2)" />
         <module name="configserver" />
         <module name="gatewayserver (1)" />
+        <module name="message" />
         <module name="eurekaserver" />
         <module name="gatewayserver" />
         <module name="eurekaserver (2)" />
         <module name="eurekaserver (3)" />
         <module name="configserver (1)" />
+        <module name="eurekaserver (4)" />
         <module name="configserver (2)" />
         <module name="configserver (3)" />
         <module name="configserver (4)" />
         <module name="configserver (5)" />
         <module name="eurekaserver (1)" />
+        <module name="configserver (6)" />
       </profile>
       <profile name="Annotation profile for loans" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -35,6 +39,7 @@
         <module name="loans (5)" />
         <module name="loans (7)" />
         <module name="cards (8)" />
+        <module name="loans (9)" />
         <module name="cards (1)" />
         <module name="loans (2)" />
         <module name="loans (4)" />
@@ -59,20 +64,13 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
-        <module name="loans (6)" />
         <module name="accounts (3)" />
         <module name="cards (3)" />
         <module name="accounts (1)" />
-      </profile>
-      <profile name="Annotation profile for loans (3)" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
-        </processorPath>
         <module name="loans (3)" />
+        <module name="loans (6)" />
+        <module name="cards (9)" />
+        <module name="accounts (9)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -91,6 +89,7 @@
       <module name="accounts (6)" options="-parameters" />
       <module name="accounts (7)" options="-parameters" />
       <module name="accounts (8)" options="-parameters" />
+      <module name="accounts (9)" options="-parameters" />
       <module name="cards" options="-parameters" />
       <module name="cards (1)" options="-parameters" />
       <module name="cards (2)" options="-parameters" />
@@ -100,19 +99,23 @@
       <module name="cards (6)" options="-parameters" />
       <module name="cards (7)" options="-parameters" />
       <module name="cards (8)" options="-parameters" />
+      <module name="cards (9)" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="configserver (1)" options="-parameters" />
       <module name="configserver (2)" options="-parameters" />
       <module name="configserver (3)" options="-parameters" />
       <module name="configserver (4)" options="-parameters" />
       <module name="configserver (5)" options="-parameters" />
+      <module name="configserver (6)" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="eurekaserver (1)" options="-parameters" />
       <module name="eurekaserver (2)" options="-parameters" />
       <module name="eurekaserver (3)" options="-parameters" />
+      <module name="eurekaserver (4)" options="-parameters" />
       <module name="gatewayserver" options="-parameters" />
       <module name="gatewayserver (1)" options="-parameters" />
       <module name="gatewayserver (2)" options="-parameters" />
+      <module name="gatewayserver (3)" options="-parameters" />
       <module name="loans" options="-parameters" />
       <module name="loans (1)" options="-parameters" />
       <module name="loans (2)" options="-parameters" />
@@ -122,6 +125,8 @@
       <module name="loans (6)" options="-parameters" />
       <module name="loans (7)" options="-parameters" />
       <module name="loans (8)" options="-parameters" />
+      <module name="loans (9)" options="-parameters" />
+      <module name="message" options="-parameters" />
     </option>
   </component>
 </project>
