@@ -122,13 +122,13 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-            <plugin>
+			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
 				<version>3.4.2</version>
 				<configuration>
 					<to>
-						<image>eazybytes/${project.artifactId}:s12</image>
+						<image>anshuljangwal/${project.artifactId}:s13</image>
 					</to>
 				</configuration>
 			</plugin>

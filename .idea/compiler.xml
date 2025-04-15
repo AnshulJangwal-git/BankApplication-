@@ -39,7 +39,6 @@
         <module name="loans (5)" />
         <module name="loans (7)" />
         <module name="cards (8)" />
-        <module name="loans (9)" />
         <module name="cards (1)" />
         <module name="loans (2)" />
         <module name="loans (4)" />
@@ -71,6 +70,16 @@
         <module name="loans (6)" />
         <module name="cards (9)" />
         <module name="accounts (9)" />
+      </profile>
+      <profile name="Annotation profile for loans (9)" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
+        </processorPath>
+        <module name="loans (9)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
