@@ -1,25 +1,8 @@
-Developed a Banking Application backend using Spring Boot and Microservices architecture to handle core banking operations such as Accounts, Loans, and Cards.
+                                              Overview
+-> Designed and developed a Banking Application backend using Spring Boot and Microservices architecture to simulate real-world banking operations such as account management, loan services, and card services.
 
-Implemented service decomposition into modules:
+-> Implemented service decomposition into independently deployable modules for scalability, maintainability, and easier testing.
 
-accounts – Manages customer account details and transactions.
+-> Adopted Spring Cloud components to enable centralized configuration, service discovery, and gateway-based routing.
 
-cards – Handles credit/debit card information and operations.
-
-loans – Maintains loan records and repayment schedules.
-
-message – Provides inter-service communication and notifications.
-
-configserver – Centralized configuration management using Spring Cloud Config Server.
-
-eurekaserver – Service discovery and registration with Netflix Eureka.
-
-gatewayserver – API Gateway for routing, load balancing, and security using Spring Cloud Gateway.
-
-Containerized all services with Docker and managed orchestration using docker-compose.
-
-Enabled centralized service configuration and service discovery to support scalability and maintainability.
-
-Applied RESTful API design principles for efficient client-server communication.
-
-Integrated API Gateway for authentication, routing, and rate limiting.
+-> Utilized Docker for containerization and docker-compose for local orchestration of all services.
